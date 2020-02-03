@@ -6,14 +6,7 @@
 	<artifactId>authors</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<proxies>
-	    <proxy>
-	      <active>true</active>
-	      <protocol>http</protocol>
-	      <host>bastion1.tieto-shared-prod.ocp</host>
-	      <port>3128</port>
-	    </proxy>
-	</proxies>
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.eclipse.microprofile</groupId>
